@@ -14,7 +14,7 @@ protocol LoggedInDependency: Dependency {
     // created by this RIB.
 }
 
-final class LoggedInComponent: Component<LoggedInDependency>, OffGameDependency {
+final class LoggedInComponent: Component<LoggedInDependency>, OffGameDependency, TicTacToeDependency {
 
     // TODO: Make sure to convert the variable into lower-camelcase.
     fileprivate var LoggedInViewController: LoggedInViewControllable {
@@ -41,9 +41,10 @@ final class LoggedInBuilder: Builder<LoggedInDependency>, LoggedInBuildable {
         let interactor = LoggedInInteractor()
         interactor.listener = listener
 
+        let ticTacTorBuilder = TicTacToeBuilder(dependency: component)
         let offGameBuilder = OffGameBuilder(dependency: component)
         return LoggedInRouter(interactor: interactor,
-                              viewController: component.LoggedInViewController,
+                              viewController: component.LoggedInViewController, ticTacToeBuilder: ticTacTorBuilder,
                               offGameBuilder: offGameBuilder)
     }
 }

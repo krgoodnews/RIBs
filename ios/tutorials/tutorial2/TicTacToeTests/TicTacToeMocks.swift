@@ -44,6 +44,10 @@ class LoggedInBuildableMock: LoggedInBuildable {
 
 /// A LoggedInInteractableMock class used for testing.
 class LoggedInInteractableMock: LoggedInInteractable {
+    func openTicTacToeGame() {
+
+    }
+
     // Variables
     var router: LoggedInRouting? { didSet { routerSetCallCount += 1 } }
     var routerSetCallCount = 0

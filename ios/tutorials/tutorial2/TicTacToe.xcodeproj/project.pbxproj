@@ -136,6 +136,13 @@
 			path = OffGame;
 			sourceTree = "<group>";
 		};
+		E6A08FC92503D0FF00CF5F49 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		E9894B411F972CC500688FCB = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +180,7 @@
 		E9C86D881FA3586500B61DF6 /* TicTacToeTests */ = {
 			isa = PBXGroup;
 			children = (
+				E6A08FC92503D0FF00CF5F49 /* Root */,
 				E9C86D891FA3586500B61DF6 /* TicTacToeMocks.swift */,
 				E9C86D8B1FA3586500B61DF6 /* Info.plist */,
 			);
