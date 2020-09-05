@@ -17,6 +17,8 @@
 		E6A08FC62503791E00CF5F49 /* OffGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A08FC22503791E00CF5F49 /* OffGameViewController.swift */; };
 		E6A08FC72503791E00CF5F49 /* OffGameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A08FC32503791E00CF5F49 /* OffGameBuilder.swift */; };
 		E6A08FC82503791E00CF5F49 /* OffGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A08FC42503791E00CF5F49 /* OffGameInteractor.swift */; };
+		E6A08FD02503D1FD00CF5F49 /* RootInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A08FCE2503D1FD00CF5F49 /* RootInteractorTests.swift */; };
+		E6A08FD12503D1FD00CF5F49 /* RootRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A08FCF2503D1FD00CF5F49 /* RootRouterTests.swift */; };
 		E9C86D8A1FA3586500B61DF6 /* TicTacToeMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C86D891FA3586500B61DF6 /* TicTacToeMocks.swift */; };
 		E9C86D921FA35F8F00B61DF6 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D441F972FE400D84847 /* LoggedOutInteractor.swift */; };
 		E9CB1D521F97303800D84847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D351F972FD500D84847 /* AppDelegate.swift */; };
@@ -61,6 +63,8 @@
 		E6A08FC22503791E00CF5F49 /* OffGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameViewController.swift; sourceTree = "<group>"; };
 		E6A08FC32503791E00CF5F49 /* OffGameBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameBuilder.swift; sourceTree = "<group>"; };
 		E6A08FC42503791E00CF5F49 /* OffGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameInteractor.swift; sourceTree = "<group>"; };
+		E6A08FCE2503D1FD00CF5F49 /* RootInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractorTests.swift; sourceTree = "<group>"; };
+		E6A08FCF2503D1FD00CF5F49 /* RootRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterTests.swift; sourceTree = "<group>"; };
 		E9894B4A1F972CC500688FCB /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9894B591F972CC500688FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C3E1EC1FA1BF9700781364 /* LoggedInComponent+TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+TicTacToe.swift"; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 		E6A08FC92503D0FF00CF5F49 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				E6A08FCE2503D1FD00CF5F49 /* RootInteractorTests.swift */,
+				E6A08FCF2503D1FD00CF5F49 /* RootRouterTests.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -475,6 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6A08FD12503D1FD00CF5F49 /* RootRouterTests.swift in Sources */,
+				E6A08FD02503D1FD00CF5F49 /* RootInteractorTests.swift in Sources */,
 				E9C86D8A1FA3586500B61DF6 /* TicTacToeMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
